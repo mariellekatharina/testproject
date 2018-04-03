@@ -1,10 +1,14 @@
 ﻿<Properties StartupConfiguration="{3EB9D98A-7FB0-49C9-8A65-5A0D811F5573}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Testaufgabe.Droid.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Resources/values/styles.xml">
     <Files>
-      <File FileName="Testaufgabe/App.xaml" Line="7" Column="1" />
-      <File FileName="Testaufgabe/App.xaml.cs" Line="26" Column="44" />
-      <File FileName="Droid/Properties/AndroidManifest.xml" Line="5" Column="12" />
-      <File FileName="Droid/Testaufgabe.Droid.csproj" Line="1" Column="1" />
+      <File FileName="Droid/PhoneDialer.cs" Line="21" Column="13" />
+      <File FileName="Droid/MainActivity.cs" Line="7" Column="21" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" Line="6" Column="12" />
+      <File FileName="Testaufgabe/MainPage.xaml.cs" Line="36" Column="27" />
+      <File FileName="Testaufgabe/MainPage.xaml" Line="4" Column="40" />
+      <File FileName="Droid/obj/Debug/android/manifest/AndroidManifest.xml" Line="10" Column="1" />
+      <File FileName="Testaufgabe/App.xaml.cs" Line="9" Column="35" />
+      <File FileName="Droid/Resources/values/styles.xml" Line="4" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

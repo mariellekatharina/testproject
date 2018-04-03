@@ -4317,7 +4317,7 @@ namespace Testaufgabe.Droid
 			public const int CardView_Light = 2131427342;
 			
 			// aapt resource value: 0x7f0b0189
-			public const int MyTheme = 2131427721;
+			public const int MainTheme = 2131427721;
 			
 			// aapt resource value: 0x7f0b018a
 			public const int MyTheme_Base = 2131427722;
