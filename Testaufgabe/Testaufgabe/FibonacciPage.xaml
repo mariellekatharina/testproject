@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Testaufgabe.FibonacciPage"
+             Title="Fibonacci-Slider">
+    
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="20, 40, 20, 20" />
+            <On Platform="Android, WinPhone, Windows" Value="20" />
+        </OnPlatform>
+    </ContentPage.Padding>
+
+    <StackLayout>
+        <Slider x:Name="fibonacciSlider" Maximum="12" Minimum="1"
+                
+                ValueChanged="OnValueChanged" />
+        
+        <Label x:Name="valueLabel"
+               BindingContext="{x:Reference fibonacciSlider}"
+               FontAttributes="Bold"
+               FontSize="Large"/>
+
+        <!--<Label BindingContext="{x:Reference fibonacciSlider}"
+               Text="{Binding Value, StringFormat='N \= {0:F0}'}"
+               FontAttributes="Bold"
+               FontSize="Large"/>-->
+        
+        <Label x:Name="fibonacciLabel"
+               FontAttributes="Bold"
+               FontSize="Large"/>
+        
+    </StackLayout>
+    
+</ContentPage>

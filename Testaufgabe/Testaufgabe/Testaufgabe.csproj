@@ -37,6 +37,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="FibonacciPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -50,6 +54,9 @@
     <Compile Include="IDialer.cs" />
     <Compile Include="CallHistoryPage.xaml.cs">
       <DependentUpon>CallHistoryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FibonacciPage.xaml.cs">
+      <DependentUpon>FibonacciPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

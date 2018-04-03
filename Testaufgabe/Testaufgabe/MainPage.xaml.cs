@@ -11,7 +11,6 @@ namespace Testaufgabe
         {
             InitializeComponent();
         }
-
         void OnTranslate(object sender, EventArgs e)
         {
             translatedNumber = Core.PhonewordTranslator.ToNumber(phoneNumberText.Text);
@@ -26,7 +25,6 @@ namespace Testaufgabe
                 callButton.Text = "Call";
             }
         }
-
         async void OnCall(object sender, EventArgs e)
         {
             if (await this.DisplayAlert(
@@ -43,10 +41,13 @@ namespace Testaufgabe
                 } 
             }
         }
-
         async void OnCallHistory(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new CallHistoryPage());
+        }
+        async void OnFibonacci(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new FibonacciPage());
         }
     }
 }
