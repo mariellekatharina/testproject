@@ -1,1 +1,1 @@
-asdkjsdö
+Testaufgabe zur Probearbeit.
